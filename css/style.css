@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  border: none;
+  outline: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 500px;
+  width: 90%;
+  background-color: #27374d;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  color: #dde6ed;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #9db2bf;
+}
+
+.container form {
+  margin-top: 1.5rem;
+}
+
+.container form input {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 2px solid #9db2bf;
+}
+
+.container form button {
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: #dde6ed;
+  color: #27374d;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.container .card {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  display: none;
+}
+
+.container .card .card-left p {
+  margin: 1rem 0;
+}
+
+.container .card .cityDisplay {
+  font-size: 2rem;
+}
+
+.container .card .card-right img {
+  background-color: #ffffffbb;
+  border-radius: 1rem;
+  width: 150px;
+}
+
+.container .errorDisplay {
+  margin-top: 1.5rem;
+  text-align: center;
+  display: none;
+}
